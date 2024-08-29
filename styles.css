@@ -1,0 +1,240 @@
+
+
+html{
+  width: 100%;
+
+}
+body{
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.navbar{
+  background-color: #ffff !important;
+  padding: 0
+
+}
+
+.container-fluid{
+  padding: 0;
+}
+
+.cont{
+  width: 90%;
+  margin: 15px auto 0 auto;
+}
+
+.brand{
+  font-weight: 500;
+  font-size: 2.2rem;
+}
+
+
+.search{
+  border-radius: 64px;
+  margin-right: 1.5rem
+}
+
+.items{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navbar-collapse{
+  display: flex;
+  justify-content: space-between;
+}
+.nav-link{
+  padding:0 2rem !important;
+  text-align: center;
+  font-weight: 400;
+}
+.d-flex{
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+.icons{
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon{
+  padding-right: 1.5rem;
+}
+
+.list-items{
+  text-align: center;
+}
+
+.slider{
+  position: relative;
+  width: 100%;
+  height: 80vh; /* Full-screen height */
+  overflow: hidden;
+}
+
+
+.image-wrapper {
+  position: relative;
+  display: flex;
+  width: 300%; /* 3 images, so width is 3 times the container */
+  height: 100%;
+  transition: transform 2s ease-in-out; /* Smooth sliding effect */
+}
+
+.image-wrapper img {
+  width: 100vw;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.hero-text{
+  position: absolute;
+  color: #ffff;
+  width: 45%;
+
+
+}
+
+.hero{
+  position: absolute;
+  top: 20%; /* Position it halfway down the viewport */
+  left: 5%; /* Position it in the center horizontally */
+  z-index: 10; /* Ensure the text is above the images */
+
+}
+.title{
+  font-size: 3.875rem;
+  line-height: 3.75rem;
+}
+
+.hero-button{
+  padding: 24px;
+  font-size: 25px;
+  background-color: #ffff;
+  margin-top: 5px;
+  border: 0px;
+}
+
+.cont p{
+  font-size: 28px;
+}
+.hero-section{
+  margin-bottom: 20px;
+}
+.middle-text{
+  text-align: center;
+  width: 30%;
+  /* min-width: 200px; */
+  margin: 25px auto;
+  letter-spacing: 6px;
+  font-weight:200 !important;
+
+}
+
+.cards{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.card{
+  max-width: 400px;
+  max-height: 650px;
+  background-color: #ffff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0;
+  border: 0;
+  margin-right: 15px;
+
+}
+.card:last-child{
+  margin-right: 0px;
+}
+.card-pic{
+  position: relative;
+  width: 100%;
+
+}
+
+.card-img{
+  object-fit: cover;
+}
+.card-heart{
+  position: absolute;
+  top: 5%;
+  right: 0;
+  margin-right: 10px;
+}
+.card-text{
+  text-align: center;
+  padding-top: 15px;
+  font-size: 20px;
+  max-width: 70%;
+  margin: auto;
+  font-weight: 400;
+}
+
+
+.ctrl-right{
+  border: 0;
+  position: absolute;
+  top:50%;
+  right: 0;
+  background: transparent;
+}
+
+.ctrl-left{
+  border: 0;
+  position: absolute;
+  top:50%;
+  left: 0;
+}
+.card-price{
+  font-size: 15px !important;
+  color: #6C6C6C;
+}
+
+
+.news-letter{
+  margin-top: 220px;
+  text-align: center;
+  border: 1px black;
+  border-style: solid none;
+  padding: 100px 0;
+
+}
+.news{
+  padding-top: 30px;
+}
+.news-button{
+  padding: 13px 28px;
+  background-color: black;
+  color: white;
+}
+
+.email-input{
+  border: 1px black;
+  border-style:  none none solid;
+  width: 30%;
+  user-select: none;
+
+
+}
+
+.email:selection {
+  background-color: transparent;
+}
