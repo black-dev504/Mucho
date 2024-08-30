@@ -48,6 +48,7 @@ function slide(element, button, offset,buttonName) {
   }
 }
 
+
 // Handle right control click
 $(".ctrl-right").on("click", function () {
   let buttonName = $(this).attr("name");
